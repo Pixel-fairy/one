@@ -1,0 +1,15 @@
+OutputName,DisplayName,ReferenceValue,Tolerance,Units
+Q_DAF,After DAF flow,4204.57,0.02,m^3/h
+Q_DMF,After DMF flow,4196.16,0.02,m^3/h
+Q_CF,After cartridge flow,4191.97,0.02,m^3/h
+Q_UF_PERMEATE,UF permeate flow,3982.37,0.02,m^3/h
+Q_UF_REJECT,UF reject flow,209.60,0.02,m^3/h
+Q_PERMEATE,RO permeate flow,1911.54,0.02,m^3/h
+Q_BRINE,RO brine flow,2070.83,0.02,m^3/h
+TDS_PERMEATE,Product TDS,148.17,0.02,mg/L
+TDS_BRINE,Brine TDS,66128.61,0.02,mg/L
+PLANT_RECOVERY_PERCENT,Overall recovery,45.37,0.02,percent
+RO_RECOVERY_PERCENT,RO recovery,48.00,0.001,percent
+PUMP_POWER_KW,Pump electrical power,7118.81,0.02,kW
+ERD_RECOVERED_KW,ERD recovered power,2841.64,0.02,kW
+NET_SEC_KWH_M3,Net SEC,2.238,0.001,kWh/m^3
