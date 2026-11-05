@@ -5,7 +5,7 @@
 This archive contains three distinct things:
 
 1. **Baseline MATLAB calculation** (`baseline/swro_baseline_calculation.m`) computes the reference values directly from a vector of fixed parameters. `validate_SWRO_Baseline.m` runs this function and compares its values to the reference CSV. These results do **not** come from Simulink.
-2. **Simulink block model** (`baseline/build_SWRO_Modular_Baseline.m`) is a separate signal-flow implementation. The runner simulates it only if Simulink is installed and available. The revised runner performs a top-level wiring audit before simulation. A successful reference-table comparison alone does not prove that the Simulink model ran.
+2. **Simulink block model** (`baseline/build_SWRO_Modular_Baseline.m`) is a separate signal-flow implementation.
 3. **Membrane-transport example** (`membrane/run_swro_demo.m`) is another standalone calculation with illustrative coefficients. Its plotted and printed results also do **not** come from the Simulink diagram.
 
 The Simulink model is a fixed-condition, steady-state signal model, not a dynamic plant model. In particular, the UF pressure boundary and RO feed pressure are imposed by constants; the UF inlet-pressure signal is terminated, and chemical dosing/control/CIP functions are inactive placeholders. Those assumptions are shown in the diagram and are not plant-control functionality.
