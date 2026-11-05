@@ -2,7 +2,7 @@
 
 ## Important: where the printed results come from
 
-This archive contains three distinct things, and their outputs must not be confused:
+This archive contains three distinct things:
 
 1. **Baseline MATLAB calculation** (`baseline/swro_baseline_calculation.m`) computes the reference values directly from a vector of fixed parameters. `validate_SWRO_Baseline.m` runs this function and compares its values to the reference CSV. These results do **not** come from Simulink.
 2. **Simulink block model** (`baseline/build_SWRO_Modular_Baseline.m`) is a separate signal-flow implementation. The runner simulates it only if Simulink is installed and available. The revised runner performs a top-level wiring audit before simulation. A successful reference-table comparison alone does not prove that the Simulink model ran.
